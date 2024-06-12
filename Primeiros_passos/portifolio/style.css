@@ -81,7 +81,7 @@ main{
 }
 
 #titulo_principal{
-    font-size:24px;
+    font-size:1.5rem;
     font-family: var(--fonte-secundaria);
     margin-bottom: 20px;
     line-height: 30px;
@@ -93,7 +93,7 @@ main{
 
 #apresentacao_inicial_texto, #sobre_joana_parte_dois p{
     font-weight: 200;
-    font-size: 15px;
+    font-size: 1rem;
     font-family: var(--fonte-primaria);
     margin-bottom: 30px;
     margin-right: 40px;
@@ -101,7 +101,7 @@ main{
 
 #acesso_redes{
     font-family:var(--fonte-primaria);
-    font-size: 16px;
+    font-size: 1rem;
     margin-top:10px;
     text-align: center;
 }
