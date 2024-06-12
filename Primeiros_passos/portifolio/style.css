@@ -93,7 +93,6 @@ main{
 
 #apresentacao_inicial_texto, #sobre_joana_parte_dois p{
     font-weight: 200;
-    font-size: 1rem;
     font-family: var(--fonte-primaria);
     margin-bottom: 30px;
     margin-right: 40px;
@@ -164,4 +163,52 @@ footer p{
     color: var(--cor-primaria);
     text-align:center;
     padding:10px;
+}
+
+/*  VERSÃO PARA CELULAR */
+
+@media (max-width:400px){
+
+    #barra_navegacao{
+        width: 70%;
+    }
+
+
+    #conteudo_geral{
+        flex-direction:column-reverse;
+        margin-top:100px;
+        
+    }
+
+    img.joana{
+        width:200px;
+    }
+
+    #titulos_principais{
+        width:200%;
+        margin-top:40px;
+    }
+
+    #titulo_principal{
+        font-size:1rem;
+        padding:4px;
+    }
+
+     #apresentacao_inicial_texto {
+        width: 100%;
+        padding:6px;
+        font-size: 0.90rem;
+    }
+    
+    #sobre_joana_parte_dois{
+        margin-top:400px;
+        width:170%;
+        flex-direction: column;
+        border:1px solid blue;
+    }
+
+    #textos_sobre_joana{
+        border:1px solid red;
+    }
+
 }
